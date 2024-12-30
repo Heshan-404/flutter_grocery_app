@@ -1,29 +1,25 @@
-## Grocery App
+## Awesome Places
 
-This is a Flutter application I built as a learning exercise, expanding on my previous Block app.
+This is another Flutter application I built as a learning exercise.
 
-![image](https://github.com/user-attachments/assets/de86cba1-efaa-4dce-b59c-8c5940649b5a)
-![image](https://github.com/user-attachments/assets/af42c32d-556c-4041-9a87-180737baacb6)
-![image](https://github.com/user-attachments/assets/5fd0375a-5914-4589-9145-8a2de3e296a4)
+![image](https://github.com/user-attachments/assets/a937050e-fc0b-439a-9e74-08a1702aa252)
+![image](https://github.com/user-attachments/assets/3d1ee4fb-f7e2-4914-b26e-72a351674a90)
+![image](https://github.com/user-attachments/assets/9dd02016-bb55-48d5-a350-493dcef129e0)
+![image](https://github.com/user-attachments/assets/5fc733fd-cb64-4377-95ba-44b964846b27)
 
 
 ## What I Learned
 
-Building this "Grocery App" helped me deepen my understanding of Flutter and explore more advanced concepts, particularly around code organization and reusable components:
+Building this "Awesome Places" app focused on exploring fundamental UI and navigation patterns in Flutter:
 
-* **Improved Folder Structure:**
-    * I explored best practices for structuring Flutter projects, organizing my code into logical folders for better maintainability.
-    * I learned to separate UI components, business logic, and assets into distinct folders.
+* **Mastering Page Navigation with `Navigator`:**
+    * This project gave me hands-on experience with Flutter's `Navigator` widget for transitioning between different screens or "pages" within the application.
+    * I learned how to push new routes onto the navigation stack to move forward and pop routes to go back, creating a seamless user experience.
 
-* **Advanced Custom Widgets:**
-    * **Reusable Widgets:** I gained more practice building highly reusable custom widgets, suitable for use throughout the app.
-    * I moved beyond basic text and image props. I started building widgets with different input types like boolean for switches or data objects.
-    * **Shared Widgets:** I identified and created shared widgets - common components like buttons, text fields, or card layouts - that are used in various parts of the app. This reduces redundancy.
+* **Displaying Internet Images with `Image.network`:**
+    * I explored fetching and displaying images directly from the internet using the `Image.network` widget.
+    * I gained an understanding of how to handle asynchronous image loading and display remote assets effectively within the app.
 
-* **Buttons with Linear Gradients:**
-    * I explored using `LinearGradient` to enhance the visual appeal of buttons.
-    * I learned to control the colors, angle, and stops of a linear gradient to create custom button styles.
-
-* **Advanced Widget Customization:**
-    * I became more comfortable with the use of different properties of widgets such as `decoration` property to add `BorderRadius` to containers.
- 
+* **Layering Widgets with the `Stack` Widget:**
+    * This project allowed me to delve into the powerful `Stack` widget, which enables layering widgets on top of each other.
+    * I learned how to position widgets within the stack using properties like `Positioned`, allowing for complex UI layouts where elements overlap. This is useful for things like placing text over images or creating card-like effects.
